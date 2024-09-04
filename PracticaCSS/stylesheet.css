@@ -1,0 +1,10 @@
+* {color:green; }
+a:link {color:gray }
+a:visited{color:blue }
+a:hover {color:fuchsia }
+a:active {color:red }
+p {font-family: arial,helvetica;font-size: 10px;color:black; }
+.contenido{font-size: 14px;font-weight: bold; }
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em {
+    color: red;
+}
