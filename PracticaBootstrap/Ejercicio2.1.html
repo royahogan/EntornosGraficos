@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grilla Bootstrap-ej2.1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- Primera fila para todas las resoluciones -->
+    <div class="row">
+        <div class="col-12 bg-custom-1">
+            <p>Primera fila, ocupa el 100% del ancho en todas las resoluciones</p>
+        </div>
+    </div>
+    
+    <!-- Segunda fila: diseño para resoluciones grandes y pequeñas -->
+    <!-- Para sm y menores, serán tres filas. Para resoluciones mayores, dos columnas de 50% -->
+    <div class="row">
+        <div class="col-12 col-md-6 bg-custom-2">
+            <p>Columna 1: Ocupa el 100% en sm y el 50% en resoluciones mayores</p>
+        </div>
+        <div class="col-12 col-md-6 bg-custom-3">
+            <p>Columna 2: Ocupa el 100% en sm y el 50% en resoluciones mayores</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
